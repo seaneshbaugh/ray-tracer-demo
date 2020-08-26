@@ -1,0 +1,28 @@
+{
+  "name": "ray-tracer-demo",
+  "version": "0.1.0",
+  "description": "A ray tracer demo based on https://tmcw.github.io/literate-raytracer/.",
+  "main": "dist/bundle.js",
+  "author": "Sean Eshbaugh",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/register": "^7.0.0",
+    "@webpack-cli/init": "^0.1.2",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "css-loader": "^2.1.0",
+    "inquirer": "^6.2.1",
+    "jest": "^23.6.0",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.1.2"
+  },
+  "scripts": {
+    "build": "webpack ./src/app.js",
+    "test": "jest"
+  }
+}

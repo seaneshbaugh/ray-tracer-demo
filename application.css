@@ -1,0 +1,17 @@
+body {
+    background: linear-gradient(to bottom, rgb(238, 254, 234) 0%, rgb(54, 96, 241) 100%);
+    display: grid;
+    font-family: Arial;
+    grid-template-columns: auto 500px auto;
+    grid-template-rows: auto 500px auto;
+    height: 100vh;
+    margin: 0;
+ }
+
+#scene {
+    background: #fff;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    height: 100%;
+    width: 100%;
+}
